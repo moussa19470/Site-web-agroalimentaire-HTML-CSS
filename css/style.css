@@ -1,0 +1,73 @@
+/* General roles*/
+
+html{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #63FF8594;
+    color: #000000;
+    margin: 0 0;
+}
+
+
+header{
+    height: 90px; 
+    background-color: white;
+    box-shadow: 0 0 10px 0 black;  /* Permet d 'ajouter une ombre */
+    
+    
+    display: flex;  /* Permets d'ajouter les propietes ;align-items et justify-content aussi affiche en ligne (colonne)*/
+    justify-content: space-between; /* Pour aligner .left et .right aux extrémités */
+    align-items: center;  /* Pour center verticalement les enfants */
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.left nav img{
+    width: 59%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+
+}
+
+header ul li{
+  list-style: none;
+  overflow: hidden;
+  margin-right: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.right ul li i{
+    font-size: 31px;
+    margin-right: 10px;
+}
+
+.right ul li button{
+    font-size: 31px;
+    color: white;
+    background-color: #176617;
+    line-height: 51px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 6px 6px;
+    height: 66px;
+}
