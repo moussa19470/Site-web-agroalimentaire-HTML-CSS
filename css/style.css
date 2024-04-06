@@ -3,21 +3,18 @@
 html{
     min-height: 100%;
     box-sizing: border-box;
-}
-
-body{
-    background-color: #63FF8594;
-    color: #000000;
-    margin: 0 0;
-}
+  }
+  body{
+    background: #cccccc;
+    color: black;
+    margin: 0 50px;
+  }
 
 
 header{
     height: 90px; 
     background-color: white;
-    box-shadow: 0 0 10px 0 black;  /* Permet d 'ajouter une ombre */
-    
-    
+
     display: flex;  /* Permets d'ajouter les propietes ;align-items et justify-content aussi affiche en ligne (colonne)*/
     justify-content: space-between; /* Pour aligner .left et .right aux extrémités */
     align-items: center;  /* Pour center verticalement les enfants */
@@ -27,6 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    padding-left: 20px;
 
 }
 .left nav img{
@@ -62,12 +60,55 @@ nav ul li a{
 }
 
 .right ul li button{
-    font-size: 31px;
+    font-size: 33px;
     color: white;
-    background-color: #176617;
-    line-height: 51px;
+    background-color: #4b914e;
+    line-height: 50px;
     border-radius: 10px;
-    text-align: center;
-    padding: 6px 6px;
-    height: 66px;
 }
+/* ---------------------TEXT-HEADER-------------------------------*/
+
+.text-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: white;
+    box-shadow: inset 1px 9px 6px #c9c1c1;
+    height: 500px;
+
+}
+
+.text-left{
+    margin-left: 133px;
+    margin-top: -125px;
+}
+
+.text-left h2{
+    color: #31a031;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text-left h1{
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.text-left button{
+
+    font-size: 33px;
+    color: white;
+    background-color: #4b914e;
+    line-height: 50px;
+    border-radius: 10px;
+}
+/*-----------------IMAGE HEADER--------------------*/
+.box{
+    height: 377px;
+    width: 507px;
+    padding-top: 29px;
+    padding-bottom: 100px;
+    box-sizing: content-box;
+}
+
