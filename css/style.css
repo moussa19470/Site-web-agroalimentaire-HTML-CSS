@@ -5,9 +5,9 @@ html{
     box-sizing: border-box;
   }
   body{
-    background: #cccccc;
+    background: #c9c0c0;
     color: black;
-    margin: 0 50px;
+    margin: 0 10px;
   }
 
 
@@ -138,3 +138,61 @@ nav ul li a{
      object-fit: cover;
      mix-blend-mode: screen;
  }
+/*-----------------SECTION--------------------*/
+
+.section-un {
+    background-color: #e9dfdf;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-un .box-left {
+    background-color: white;
+    width: 30%;
+    height: 90%;
+    margin-left: 75px;
+    display: grid;
+    justify-items: center;
+    border-radius: 5%;
+}
+
+.section-un .box-left img{
+    box-sizing: content-box;
+    width: 160px;
+    height: 170px;
+    margin: 10px 42px;
+}
+.section-un .box-right {
+    background-color: white;
+    height: 90%;
+    width: 60%;
+    margin-right: 75px;
+    margin-left: 50px;
+    border-radius: 5%;
+}
+.section-un .box-right h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d3a723cf;
+    text-decoration: underline;
+    margin-left : 70px;
+}
+.section-un .box-right p{
+    text-align: center;
+    margin-left: 70px;
+}
+
+.section-un  .box-right .box-right-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 77px;
+}
+.section-un .box-right .box-right-image img{
+    width: 151px;
+    height: 160px;
+    border: 7px solid #c9c0c0;
+    border-radius: 0 40%;
+}
