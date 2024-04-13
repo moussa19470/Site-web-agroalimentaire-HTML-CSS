@@ -204,11 +204,12 @@ nav ul li a{
     box-shadow: inset 1px 9px 6px #c9c1c1;
 }
 
-.section-deux .title{
+.title{
     color: #31a031;
     font-size: 28px;
     font-weight: 800;
     text-align: center;
+    margin: 1px 1px;
 }
 .section-deux .produit-un, .produit-deux {
     display: flex;
@@ -240,6 +241,8 @@ nav ul li a{
     text-align: center;
     font-size: 19px;
     margin: 4px 1px;
+    color:#a19696;
+
 }
 
 .desc h3{
@@ -268,4 +271,94 @@ nav ul li a{
     border-radius: 0% 0% 20% 20%;
     width: 237px;
     height: 50px;
+}
+
+.section-quatre{
+    background-image: url(../images/huile.webp);
+    height: 470px;
+    padding-top: 1px;
+    box-shadow: inset 1px 9px 6px #c9c1c1;
+    
+}
+
+.section-quatre span h2,.section-quatre span p{
+    text-align: center;
+    color: white;
+}
+
+.section-quatre .temoignage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 170px;
+}
+.section-quatre .temoignage .temoins {
+    background-color: white;
+    width: 270px;
+    height: 355px;
+    border-radius: 6%;
+}
+.section-quatre .temoignage .temoins img {
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    border-radius: 100%;
+
+}
+.section-quatre .temoignage .temoins p {
+    text-align: center;
+    margin: 6px;
+}
+
+.section-cinq{
+    height: 1080px;
+    padding-top: 1px;
+    box-shadow: inset 1px 9px 6px #c9c1c1;
+
+}
+
+.section-cinq .first, .section-cinq .second {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9dfdf;
+    
+}
+
+.section-cinq .first img, .section-cinq .second img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 140px;
+}
+
+.section-cinq .second .paragraphe{
+    width: 500px;
+    height: 200px;
+    padding-bottom: 200px;
+    margin-left: 40px;
+}
+.section-cinq .second .paragraphe p {
+    font-size: 20px;
+}
+
+.section-six {
+    height: 300px;
+    padding-top: 1px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/sac.jpg);
+}
+.section-six input {
+    width: 500px;
+    height: 40px;
+}
+.section-six button {
+    font-size: 33px;
+    color: white;
+    background-color: #4b914e;
+    line-height: 50px;
+    border-radius: 10px;
+    width: 260px;
+    margin: auto;
 }
